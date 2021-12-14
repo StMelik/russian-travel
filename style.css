@@ -84,3 +84,33 @@ body {
     text-transform: uppercase;
     text-align: left;
 }
+
+/* -----INFO----- */
+
+.info {
+    margin-bottom: 92px;
+}
+.info__inner {
+    padding-left: 100px;
+}
+.info__title {
+    font-family: "Inter-Black", sans-serif;
+    font-size: 54px;
+    line-height: 58px;
+    margin-bottom: 40px;
+}
+.info__text {
+    margin: 0 0 33px;
+    line-height: 26px;
+    max-width: 690px;
+}
+.info__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    line-height: 18px;
+}
+.info__list-item_text {
+    font-family: "Inter-Bold", sans-serif;
+}
