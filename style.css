@@ -220,3 +220,28 @@ body {
     max-width: 360px;
     margin: 0 auto;
 }
+
+/* -----FOOTER----- */
+
+.footer {
+    margin-bottom: 24px;
+}
+.footer__inner {
+    display: flex;
+    align-items: center;
+}
+.footer__link {
+    line-height: 18px;
+    color: inherit;
+    margin-right: 18px;
+    transition: opacity 0.3s;
+}
+.footer__link:hover {
+    opacity: 0.5;
+}
+.footer__copy {
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0;
+    margin-left: auto;
+}
