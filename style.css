@@ -114,3 +114,20 @@ body {
 .info__list-item_text {
     font-family: "Inter-Bold", sans-serif;
 }
+
+/* -----PHOTO-GRID----- */
+
+.photo-grid {
+    margin-bottom: 92px;
+}
+.photo-grid__inner {
+    display: grid;
+    grid-template-columns: repeat(4, 284px);
+    grid-template-rows: repeat(3, 213px);
+    gap: 16px;
+}
+.photo-grid__item {
+}
+.photo-grid__img {
+    width: 100%;
+}
