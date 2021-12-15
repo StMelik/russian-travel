@@ -190,3 +190,33 @@ body {
 .places__place-paragraph:not(:last-child) {
     margin-bottom: 26px;
 }
+
+/* -----COVER----- */
+
+.cover {
+    margin-bottom: 92px;
+}
+.cover__inner {
+    background-image: url("images/cover-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.cover__overlay {
+    background-color: rgba(42, 44, 47, 0.3);
+    padding: calc(245 * 100% / 1184) 0;
+    text-align: center;
+}
+.cover__title {
+    font-family: "Inter-Black", sans-serif;
+    font-size: 72px;
+    line-height: 76px;
+    max-width: 560px;
+    margin: 0 auto 32px;
+}
+.cover__subtitle {
+    font-size: 18px;
+    line-height: 22px;
+    max-width: 360px;
+    margin: 0 auto;
+}
