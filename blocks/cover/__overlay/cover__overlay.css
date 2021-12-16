@@ -1,0 +1,12 @@
+.cover__overlay {
+    display: block;
+    padding: calc(245 * 100% / 1184) 0;
+    text-align: center;
+    transition: background-color 0.4s ease-out;
+    text-decoration: none;
+    background-color: rgba(42, 44, 47, 0.3);
+    color: inherit;
+}
+.cover__overlay:hover {
+    background-color: rgba(42, 44, 47, 0.8);
+}
