@@ -5,53 +5,6 @@
     box-sizing: border-box;
 }
 
-/* -----PHOTO-GRID----- */
-
-.photo-grid {
-    margin-bottom: 92px;
-}
-.photo-grid__inner {
-    display: grid;
-    grid-template-columns: repeat(4, fit-content(284px));
-    grid-template-rows: repeat(3, fit-content(213px));
-    gap: 16px;
-}
-.photo-grid__item {
-}
-.photo-grid__img {
-    width: 100%;
-}
-
-@media screen and (max-width: 1024px) {
-    .photo-grid__inner {
-        grid-template-columns: repeat(3, fit-content(300px));
-        grid-template-rows: repeat(4, fit-content(225px));
-        gap: 14px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .photo-grid__inner {
-        grid-template-columns: repeat(2, fit-content(352px));
-        grid-template-rows: repeat(6, fit-content(264px));
-        gap: 16px;
-    }
-    .photo-grid {
-        margin: 0 -24px 88px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .photo-grid__inner {
-        grid-template-columns: repeat(1, fit-content(288px));
-        grid-template-rows: repeat(12, fit-content(216px));
-        gap: 12px;
-    }
-    .photo-grid {
-        margin: 0 -32px 64px;
-    }
-}
-
 /* -----PLACES----- */
 
 .places {
