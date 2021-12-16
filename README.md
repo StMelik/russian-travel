@@ -13,6 +13,4 @@
 * HTML
 * CSS
 
-**Картинки**
-
 * [Ссылка на GitHub Pages.](https://stmelik.github.io/russian-travel/)
