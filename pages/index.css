@@ -6,9 +6,9 @@
 
 @import url("../vendor/fonts.css");
 
-/* -----BODY----- */
+/* -----PAGE----- */
 
-@import url("../blocks/body/body.css");
+@import url("../blocks/page/page.css");
 
 /* -----LOGO----- */
 
