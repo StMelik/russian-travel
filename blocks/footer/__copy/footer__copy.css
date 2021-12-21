@@ -3,9 +3,8 @@
     line-height: 16px;
     margin: 0 0 0 auto;
 }
-@media screen and (max-width: 691px) {
+@media screen and (max-width: 768px) {
     .footer__copy {
-        line-height: 14px;
         margin: 0;
         width: 100%;
     }

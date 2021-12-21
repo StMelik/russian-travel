@@ -23,7 +23,7 @@
         margin-bottom: 73px;
     }
 }
-@media screen and (max-width: 631px) {
+@media screen and (max-width: 630px) {
     .places__place {
         grid-template-columns: 1fr;
         grid-template-areas:

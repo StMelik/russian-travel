@@ -4,10 +4,16 @@
     line-height: 58px;
     margin-bottom: 40px;
 }
+@media screen and (max-width: 768px) {
+    .intro__title {
+        font-size: 48px;
+        line-height: 52px;
+    }
+}
 @media screen and (max-width: 425px) {
     .intro__title {
-        font-size: 44px;
-        line-height: 48px;
+        font-size: 40px;
+        line-height: 44px;
     }
 }
 @media screen and (max-width: 320px) {

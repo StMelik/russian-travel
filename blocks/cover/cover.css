@@ -14,6 +14,11 @@
         margin-bottom: 88px;
     }
 }
+@media screen and (max-width: 425px) {
+    .cover {
+        margin-bottom: 74px;
+    }
+}
 @media screen and (max-width: 320px) {
     .cover {
         margin-bottom: 64px;
