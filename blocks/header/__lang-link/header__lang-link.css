@@ -5,13 +5,9 @@
     line-height: 28px;
     transition: opacity 0.3s;
 }
-.header__lang-link:not(:last-child) {
-    margin-right: 18px;
-}
 .header__lang-link:not(.header__lang-link_active):hover {
     opacity: 0.5;
 }
-
 @media screen and (max-width: 320px) {
     .header__lang-link {
         font-size: 18px;

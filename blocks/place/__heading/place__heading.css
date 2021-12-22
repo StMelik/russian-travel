@@ -1,7 +1,8 @@
-.places__place-heading {
+.place__heading {
     font-size: 12px;
     line-height: 12px;
     color: #aaa;
     letter-spacing: 2px;
     margin: 0 0 12px;
+    text-transform: uppercase;
 }

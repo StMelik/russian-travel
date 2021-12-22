@@ -3,12 +3,8 @@
     line-height: 22px;
     max-width: 360px;
     margin: 0 auto;
-}
-@media screen and (max-width: 768px) {
-    .cover__subtitle {
-        font-size: 18px;
-        line-height: 22px;
-    }
+    position: relative;
+    z-index: 1;
 }
 @media screen and (max-width: 530px) {
     .cover__subtitle {

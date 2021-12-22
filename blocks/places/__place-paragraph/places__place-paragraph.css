@@ -1,6 +1,0 @@
-.places__place-paragraph {
-    margin: 0;
-}
-.places__place-paragraph:not(:last-child) {
-    margin-bottom: 25px;
-}
